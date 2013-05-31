@@ -36,7 +36,7 @@
     // if (url.terms) {
       // callback({ 0: JSON.parse(url.terms) });
     // } else { 
-      $.getJSON('/api/terms/', callback);
+      $.getJSON('api/terms/', callback);
     // }
 
     setTimeout(function() {
